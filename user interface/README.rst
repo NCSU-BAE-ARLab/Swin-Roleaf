@@ -5,26 +5,21 @@ Download and setup
 
 install anaconda
 
-Open cmd
+Open cmd and run
+```
+conda create -n swin-roleaf python=3.8
+activate swin-roleaf
+conda install pyqt
+conda install lxml
+```
 
-.. code::
+Then go to `user interface`__ directory and run
+```
+conda create -n Py39_Torch1.10_cu11.3 python=3.9 -y 
+source activate Py39_Torch1.10_cu11.3
+```
 
-    conda create -n swin-roleaf python=3.8
-    activate swin-roleaf
-    conda install pyqt
-    conda install lxml
-
- Then go to `user interface`__ directory and run
-
-    pyrcc5 -o resources.py resources.qrc 
-    python swin-roleaf.py
-
-^^^^^^^
-
-Usage
------
-
-Steps
+Usage Steps
 ~~~~~
 
 1. Build and launch using the instructions above.
