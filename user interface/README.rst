@@ -16,7 +16,6 @@ Open cmd
 
  Then go to `user interface`__ directory and run
 
-.. code::
     pyrcc5 -o resources.py resources.qrc 
     python swin-roleaf.py
 
