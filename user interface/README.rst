@@ -14,8 +14,6 @@ Open cmd
     conda install pyqt
     conda install lxml
 
-^^^^^^^
-
  Then go to `user interface`__ directory and run
 
 .. code::
