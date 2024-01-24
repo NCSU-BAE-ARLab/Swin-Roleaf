@@ -46,4 +46,4 @@ python setup.py develop  #or "pip install -v -e ."
 
 # Usage
 * 1.Put the images into the dataset-corn folder
-* 2.go to 'swin-Roleaf-model' directory and run 'python detect.py', then you can get the predicted images and corresponding predictive labels in detect_results folder
+* 2.go to 'swin-Roleaf-model' directory and run 'python detect.py', then you can get the predicted images and corresponding predictive labels/angles  in detect_results folder
