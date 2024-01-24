@@ -72,8 +72,8 @@ class LabelFile(object):
                 #angle = []
                 #angle.append(round(abs(robndbox[4]/math.pi * 180 - 90),0))
                 angle = round(abs(robndbox[4]/math.pi * 180 - 90),0)
-                #2023 label = 'leaf Azimuth Angle: '+ str(round(abs(robndbox[4]/math.pi * 180 - 90),0))+'°'
-                label='leaf'
+                label = 'leaf Azimuth Angle: '+ str(round(abs(robndbox[4]/math.pi * 180 - 90),0))+'°'
+                #label='leaf'
                 writer.addRotatedBndBox(robndbox[0],robndbox[1],
                     robndbox[2],robndbox[3],robndbox[4],label,difficult)
                 #print(angle)
