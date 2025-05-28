@@ -47,7 +47,7 @@ python setup.py develop  #or "pip install -v -e ."
 # Usage
 * 1.Put the images into the dataset-corn folder
 * 2.go to 'swin-Roleaf-model' directory and run 'python detect.py --imgsz sizeh sizew', then you can get the predicted images and corresponding predictive labels/angles in detect_results folder
-* **Note**: if your **planting axis is horizontal, please run 'python detect-horizontal.py --imgsz sizeh sizew'** instead of detect.py：crop_size.py is for croping the original images to the size you want(will be square size), run 'python crop_size.py folder_path_of_image cropize' cropsize can be 640/1280...
+* **Note**: if your **planting axis is horizontal, please run 'python detect-horizontal.py --imgsz sizeh sizew'** instead of 'python detect.py --imgsz sizeh sizew'. crop_size.py is for croping the original images to the size you want(will be square size), run 'python crop_size.py folder_path_of_image cropize' cropsize can be 640/1280...
 * 3.After that, you can use user interface to show the label and correct labels, remember to open detect_results/results folder in user interface, the txt/xml files in this folder are label locations and angles.
 
 # Output format
