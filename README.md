@@ -6,7 +6,7 @@
 * CUDA 9.0 or higher
 
 I have tested the following versions of OS and softwares：
-* OS：Ubuntu 16.04/18.04
+* OS：Ubuntu 16.04/18.04/20.04
 * CUDA: 10.0/10.1/10.2/11.3
 
 ## Install 
